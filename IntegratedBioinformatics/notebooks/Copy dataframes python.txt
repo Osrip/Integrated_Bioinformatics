@@ -1,0 +1,6 @@
+df2 = df1
+
+When df2 is now modified, df1 will also be modified, as both df1 and df2 point to the same object.
+
+Copying:
+df = df.loc[:,:] will copy it
